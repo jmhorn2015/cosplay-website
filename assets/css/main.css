@@ -438,18 +438,6 @@
 			opacity: 0.25;
 		}
 
-		@media screen and (max-width: 480px) {
-
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			button,
-			.button {
-				padding: 0;
-			}
-
-		}
-
 /* Contact */
 
 	#contact {
@@ -1050,6 +1038,7 @@
 
 		ul li {
 			padding-left: 0.5em;
+			padding-bottom: 0.5em;
 		}
 
 		ul.alt {
@@ -1080,27 +1069,7 @@
 					padding: 0;
 				}
 
-				@media screen and (max-width: 736px) {
 
-					ul.tabs li {
-						display: block;
-						margin: 0 0 .25em 0;
-						padding: 0;
-					}
-
-						ul.tabs li .button {
-							width: 100%;
-						}
-
-				}
-
-			@media screen and (max-width: 480px) {
-
-				ul.tabs {
-					margin-bottom: 1em;
-				}
-
-			}
 
 		ul.icons {
 			cursor: default;
@@ -1656,8 +1625,4 @@
 /* Video */
 #myVideo {
     position: absolute;
-    right: 0;
-    top: 0;
-    min-width: 100%;
-    min-height: 100%;
 }
